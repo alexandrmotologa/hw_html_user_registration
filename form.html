@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create An Account</title>
+    <link rel="shortcut icon" href="./icons/owner.png" type="image/x-icon">
+</head>
+<body bgcolor="#FDF5E6">
+    <hr>
+    <h1 align="center">Create An Account</h1>
+    
+    <hr>
+    <br>
+
+    <form action="thankyou.html">
+        <table align="center" cellpadding="10" bgcolor="#FFDAB9">
+            <tr>
+                <td colspan="2" align="center">
+                    <hr>
+                    <img src="./images/avataaars.png" alt="avatar user" width="120">
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>
+                        <label for="firstname">
+                            Firstname
+                        </label>
+                    </h2>
+                </td>
+                <td> 
+                    <input type="text" id="firstname" required maxlength="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>
+                        <label for="lastname">
+                            Lastname
+                        </label>
+                    </h2>
+                </td>
+                <td>
+                    <input type="text" id="lastname" required maxlength="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>
+                        <label for="email">
+                            Email
+                        </label>
+                    </h2>
+                </td>
+                <td>
+                    <input type="email" id="email" required maxlength="40" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>
+                        <label for="location">
+                            Location
+                        </label>
+                    </h2>
+                </td>
+                <td>
+                    <select id="location" required>
+                        <option style="display:none"></option>
+                        <optgroup label="Moldova">
+                            <option value="">Chisinau</option>
+                            <option value="">Balti</option>
+                            <option value="">Orhei</option>
+                        </optgroup>
+                        <optgroup label="Romania">
+                            <option value="">Bucuresti</option>
+                            <option value="">Cluj-Napoca</option>
+                            <option value="">Timisoara</option>
+                        </optgroup>
+                        <optgroup label="Regatul Tarilor de Jos">
+                            <option value="">Amsterdam</option>
+                            <option value="">Haarlem</option>
+                            <option value="">Rotterdam</option>
+                        </optgroup>
+                        <optgroup label="U.S.A.">
+                            <option value="">New Jersey</option>
+                            <option value="">New York</option>
+                            <option value="">California</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>
+                        <label for="date">
+                        Your DOB
+                        </label>
+                    </h2>
+                </td>
+                <td>
+                    <input type="date" id="date" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <fieldset>
+                        <legend>Short Bio</legend>
+                    <textarea style="resize:none" cols="40" rows="10" id="bio"></textarea>
+                </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <input type="checkbox" id="agree" required>
+                        <label for="agree">I agree with the <a href="terms.html" target="_blank"> terms & rules.</a></label>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="resetdata"><small> If you do not agree <a href="terms.html" target="_blank"> terms & rules</a>, please click </small></label>
+                    <input type="reset" value="Clear info" id="resetdata">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <hr>
+                    <button>
+                        GO FOR IT!
+                    </button>
+                    <hr>
+                </td>
+
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
