@@ -5,20 +5,19 @@
     <title>Create An Account</title>
     <link rel="shortcut icon" href="./icons/owner.png" type="image/x-icon">
 </head>
-<body bgcolor="#FDF5E6">
-    <hr>
-    <h1 align="center">Create An Account</h1>
-    
-    <hr>
-    <br>
+<body style="background-color: #FDF5E6;">
+    <hr style="background-color: darkblue; height: 2px; width: 80%;">
+    <h1 style="color:darkblue; text-align: center;">Create An Account</h1>
+    <hr style="margin-bottom:50px; background-color: darkblue; height: 2px; width: 50%;">
 
+    
     <form action="thankyou.html">
-        <table align="center" cellpadding="10" bgcolor="#FFDAB9">
+        <table cellpadding="10" style="background-color: #FFDAB9; margin-left: auto; margin-right: auto;">
             <tr>
-                <td colspan="2" align="center">
-                    <hr>
+                <td colspan="2" style="text-align: center;">
+                    <hr style="background-color: darkblue; height: 2px;">
                     <img src="./images/avataaars.png" alt="avatar user" width="120">
-                    <hr>
+                    <hr style="background-color: darkblue; height: 2px;">
                 </td>
             </tr>
             <tr>
@@ -30,7 +29,7 @@
                     </h2>
                 </td>
                 <td> 
-                    <input type="text" id="firstname" required maxlength="20">
+                    <input type="text" id="firstname" required maxlength="20" style="background-color:#FDF5E6; color: blue;">
                 </td>
             </tr>
             <tr>
@@ -42,7 +41,7 @@
                     </h2>
                 </td>
                 <td>
-                    <input type="text" id="lastname" required maxlength="20">
+                    <input type="text" id="lastname" required maxlength="20" style="background-color:#FDF5E6; color: blue;">
                 </td>
             </tr>
             <tr>
@@ -54,7 +53,7 @@
                     </h2>
                 </td>
                 <td>
-                    <input type="email" id="email" required maxlength="40" required>
+                    <input type="email" id="email" required maxlength="40" required style="background-color:#FDF5E6; color: blue;">
                 </td>
             </tr>
             <tr>
@@ -66,7 +65,7 @@
                     </h2>
                 </td>
                 <td>
-                    <select id="location" required>
+                    <select id="location" required style="background-color:#FDF5E6; color: blue;">
                         <option style="display:none"></option>
                         <optgroup label="Moldova">
                             <option value="">Chisinau</option>
@@ -100,38 +99,38 @@
                     </h2>
                 </td>
                 <td>
-                    <input type="date" id="date" required>
+                    <input type="date" id="date" required style="background-color:#FDF5E6; color: blue;">
                 </td>
             </tr>
             <tr>
-                <td colspan="2" align="center">
+                <td colspan="2" style="text-align: center;">
                     <fieldset>
                         <legend>Short Bio</legend>
-                    <textarea style="resize:none" cols="40" rows="10" id="bio"></textarea>
+                    <textarea style="resize:none; background-color:#FDF5E6; font-weight: lighter; font-style: italic; color: green;" cols="40" rows="10" id="bio"></textarea>
                 </fieldset>
                 </td>
             </tr>
             <tr>
                 <td colspan="2">
                     <fieldset>
-                        <input type="checkbox" id="agree" required>
+                        <input type="checkbox" id="agree" required style="background-color:#FDF5E6;">
                         <label for="agree">I agree with the <a href="terms.html" target="_blank"> terms & rules.</a></label>
                     </fieldset>
                 </td>
             </tr>
             <tr>
-                <td colspan="2">
-                    <label for="resetdata"><small> If you do not agree <a href="terms.html" target="_blank"> terms & rules</a>, please click </small></label>
-                    <input type="reset" value="Clear info" id="resetdata">
+                <td colspan="2" style="color: darkgoldenrod;">
+                    <label for="resetdata"><small style="font-size: 10px;"> If you do not agree <a href="terms.html" target="_blank"> terms & rules</a>, please click </small></label>
+                    <input type="reset" value="Clear info" id="resetdata" style="color:darkblue; font-size: 10px; background-color: darkgoldenrod;">
                 </td>
             </tr>
             <tr>
-                <td colspan="2" align="center">
-                    <hr>
-                    <button>
+                <td colspan="2" style="text-align: center;">
+                    <hr style="background-color: darkblue; height: 2px;">
+                    <button style="color:darkblue;">
                         GO FOR IT!
                     </button>
-                    <hr>
+                    <hr style="background-color: darkblue; height: 2px;">
                 </td>
 
             </tr>
